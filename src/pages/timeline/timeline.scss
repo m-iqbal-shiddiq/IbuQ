@@ -1,0 +1,38 @@
+page-timeline {
+    .latar {
+        background-color: #ebebeb;
+    }
+
+    .head-page {
+        position: relative;
+        left: 30%;
+    }
+
+    .artikel {
+        position: relative;
+        background-color: #e1e1e1;  
+    }
+
+    .image {
+        position: relative;
+        height: 40%;
+        width: 40%; 
+        top: 80%;
+    }
+
+    .isiArtikel {
+        font-size: 1.0em;
+        position: absolute;
+        top: 10%;
+        left: 45%;
+        width: 100%;
+        color: #000000;
+    }
+
+    .saved {
+        position: relative;
+        top: 80%;
+        left: 92%;
+        font-size: 30px;
+    }
+}

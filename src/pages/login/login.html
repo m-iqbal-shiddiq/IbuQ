@@ -1,0 +1,39 @@
+<ion-content class="latar">
+  <div class="welcome">
+    <p> Welcome back mom! </p>
+  </div>
+
+  <div class="masuk">
+    <p> Masuk untuk melanjutkan </p>
+  </div>
+
+  <div class="isian">
+    <form (submit)="doLogin()">
+      <ion-list inset>
+        
+        <ion-item>
+          <ion-label floating color="basic" >USERNAME</ion-label>
+          <ion-input type="email" [(ngModel)]="account.username" name="email"></ion-input>
+        </ion-item>
+        
+      
+        <ion-item>
+          <ion-label floating color="basic">PASSWORD</ion-label>
+          <ion-input type="password" [(ngModel)]="account.password" name="password" ></ion-input>
+        </ion-item>
+
+        <br>
+        <br>
+        <div pading align="center">
+          <button ion-button round color="basic">Masuk</button>
+        </div>
+
+      </ion-list>
+    </form>
+  </div>
+
+  <div class="kembali" align="center">
+    <p (click)="kembali()"> <b><u>Kembali</u></b> </p>
+  </div>
+
+</ion-content>

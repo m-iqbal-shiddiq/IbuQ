@@ -1,0 +1,50 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>DAFTAR</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <form (submit)="doSignup()">
+    <ion-list>
+
+      <ion-item>
+        <ion-label fixed> NAMA LENGKAP</ion-label>
+        <ion-input type="text" [(ngModel)]="account.name" name="name"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label fixed>USERNAME</ion-label>
+        <ion-input type="text" [(ngModel)]="account.email" name="username"></ion-input>
+      </ion-item>
+
+      <ion-item>
+          <ion-label fixed>EMAIL</ion-label>
+          <ion-input type="email" [(ngModel)]="account.email" name="email"></ion-input>
+        </ion-item>
+
+      <ion-item>
+        <ion-label fixed>PASSWORD</ion-label>
+        <ion-input type="password" [(ngModel)]="account.password" name="password"></ion-input>
+      </ion-item>
+
+      <ion-item>
+          <ion-label fixed>ULANG PASSWORD</ion-label>
+          <ion-input type="password" [(ngModel)]="account.password" name="password"></ion-input>
+      </ion-item>
+
+      <ion-item>
+          <ion-label fixed>UMUR ANAK</ion-label>
+          <ion-input type="text" [(ngModel)]="account.umur" name="umur"></ion-input>
+      </ion-item>
+
+      <div padding>
+        <button ion-button color="basic" block>DAFTAR</button>
+      </div>
+
+    </ion-list>
+  </form>
+</ion-content>

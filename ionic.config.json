@@ -1,0 +1,7 @@
+{
+  "name": "IbuQ",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

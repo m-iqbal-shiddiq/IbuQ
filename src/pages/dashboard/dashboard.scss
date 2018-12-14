@@ -1,0 +1,84 @@
+page-dashboard {
+    .latar {
+        background-color: #ebebeb;
+    }
+
+    .head-page {
+        position: relative;
+        left: -9%;
+    }
+    
+    .latar-card {
+        background-color: #e1e1e1;
+    }
+    .title {
+        color : #D43B41;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .cardhead {
+        position: relative;
+        background-color: #e1e1e1;
+    }
+
+    .subcard {
+        position: relative;
+        text-align: center;
+        height: 40%;
+    }
+
+    .card-title {
+        position: absolute;
+        top: 36%;
+        font-size: 2.0em;
+        width: 100%;
+        font-weight: bold;
+        color: #fff;
+    }
+    
+    .card-subtitle {
+        font-size: 1.0em;
+        position: absolute;
+        top: 52%;
+        width: 100%;
+        color: #fff;
+    }
+
+    .image {
+        position: relative;
+        height: 40%;
+        width: 40%; 
+        top: 80%;
+    }
+
+    .artikel {
+        position: relative;
+        background-color: #e1e1e1;
+    }
+
+    .isiArtikel {
+        font-size: 1.0em;
+        position: absolute;
+        top: 10%;
+        left: 45%;
+        width: 100%;
+        color: #000000;
+    }
+
+    .kategori-card {
+        position: relative;
+        width: 3cm;
+        height: 4cm;
+    }
+
+    .jenis-kategori {
+        position: absolute;
+        top: 36%;
+        font-size: 1.0em;
+        width: 100%;
+        font-weight: bold;
+        color: #000000;
+        text-align: center;
+    }
+}
